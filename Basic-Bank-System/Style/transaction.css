@@ -1,0 +1,61 @@
+*{
+        margin:0px;
+        padding:0px;
+        border:0px;
+}
+body{
+    background-image: url("../img/piggybank.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    gap:20px;
+}
+
+.transaction-cards{
+    height:auto;
+    /* background-color: brown; */
+    width:60%;
+    float:left;
+    gap:12px;
+    margin-top: 100px;
+    display:flex;
+}
+.transaction-cards .from{
+    /* margin-right:10px; */
+    max-height:500px;
+    width:60%;
+    border:3px solid #fff;
+    border-radius: 12%;
+    overflow:visible;
+}
+.transaction-cards .from form button{
+   
+    margin-left: 120px;
+    
+}
+.transaction-cards .logo{
+    margin-top:150px;
+    height:200px;
+    width:40%;
+    /* border:2px solid black; */
+    background-image: url("../img/bidirectional.png");
+    background-size:cover;
+
+}
+.transaction-cards .to{
+    margin-left:0px;
+    height:500px;
+    width:60%;
+    border:3px solid #fff;
+    border-radius: 12%;
+
+}
+.history{
+    height:100px;
+    background-color: #fff;
+    width:40%;
+    float:left;
+    margin-top: 75px;
+}
+
+
